@@ -113,11 +113,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# added by Miniconda2 4.1.11 installer
-export PATH="/home/ubuntu/miniconda2/bin:$PATH"
-
 # command to start Jupyter notebook at a certain port
-alias jpnb='jupyter-notebook --port 21975 --no-browser'
+alias jpnb='jupyter-notebook --port 8888 --no-browser'
 # safe remove
 alias rm='rm -i'
 alias mv='mv -i'
