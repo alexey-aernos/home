@@ -120,3 +120,4 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 
+alias syncplots="aws s3 sync s3://plotdata-bucket-oregon/ ~/plots"
